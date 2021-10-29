@@ -19,7 +19,7 @@
       :collapse-transition="false" :router="true" :default-active="activePath">
       <!-- 一级菜单 -->
       <el-submenu :index="item.id+''" v-for="item in menulist" :key="item.id">
-        <!-- 一级菜单的模板区域 -->
+        <!-- 一级菜单区域 -->
         <template slot="title">
           <!-- 图标 -->
           <i :class="iconsObj[item.id]"></i>
