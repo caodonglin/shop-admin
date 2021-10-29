@@ -1,5 +1,5 @@
 <template>
-  <div>Wecome</div>
+  <div></div>
 </template>
 
 <script>
